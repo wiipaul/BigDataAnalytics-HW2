@@ -169,7 +169,7 @@ plt.figure()
 plot_confusion_matrix(cnf_matrix,classes=class_name,normalize=True,title='Normalized confusion matrix')
 plt.show
 ```
-![image](file:C:/Users/test/Downloads/confusion matrix.jpg)  
+![github](https://github.com/wiipaul/BigDataAnalytics-HW2/blob/master/cnf_matrix-Xgboost.jpg)  
 ## GBM參數組合
 ```python
 import pandas as pd
@@ -292,5 +292,5 @@ np.set_printoptions(precision=2)
 plt.figure()
 plot_confusion_matrix(cnf_matrix,classes=class_name,title='Confusion matrix , without normalization')
 plt.show
-```
-![image](file:C:/Users/test/Downloads/cnf_matrix-GBM.jpg)  
+```  
+![github](https://github.com/wiipaul/BigDataAnalytics-HW2/blob/master/cnf_matrix-GBM.jpg)  
